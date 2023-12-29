@@ -1,0 +1,50 @@
+/* BASIC RESET - IM'NOT ROOKIE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*----------------------------------  HEADER SECTION ---------------------------*/
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-color: #1F2937;
+    color: #fff;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 24px;
+}
