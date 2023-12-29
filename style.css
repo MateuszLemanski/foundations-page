@@ -36,8 +36,9 @@ header {
 
 ul li a {
     text-decoration: none;
-    color: #fff;
-    padding: 10px 20px;
+    padding: 20px 0 20px 20px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 ul {
@@ -47,4 +48,42 @@ ul {
 .logo {
     font-weight: 900;
     font-size: 24px;
+    color: #F9FAF8;
+    letter-spacing: 2.5px;
+}
+
+.header-container-two {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    /* align-items: flex-end; */
+}
+
+/* https://www.pexels.com/pl-pl/@fr3nks/ ----author for hero-img*/ 
+
+.hero-img {
+    min-width: 50%;
+    max-height: 35%;
+    flex: 1;
+}
+
+.hero-header {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-btn {
+    width: 120px;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 10px;
+    color: #F9FAF8;
+    background-color: #3882F6;
 }
