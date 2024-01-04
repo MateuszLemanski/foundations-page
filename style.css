@@ -103,12 +103,10 @@ ul {
 
 /* -------------------------- MAIN SECTION - RANDOM STUFF------------------------- */
 
-main {
-    width: 1200px;
-    margin: 0 auto;
-}
 
 .content {
+    width: 1200px;
+    margin: 0 auto;
     background-color: #fff;
     margin-bottom: 120px;
 }
@@ -145,4 +143,32 @@ h2 {
 
 .text {
     line-height: 25px;
+}
+
+/* -----------------MAIN SECTION - CITE STUFF  -------------------------------- */
+
+
+.cite-background {
+    background-color: #E5E7EB;
+}
+
+.cite {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 120px 0;   
+}
+
+.cite-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    padding: 20px;
+}
+
+.cite-author {
+    display: block;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: right;
 }
