@@ -99,3 +99,50 @@ ul {
     color: #F9FAF8;
     background-color: #3882F6;
 }
+
+
+/* -------------------------- MAIN SECTION - RANDOM STUFF------------------------- */
+
+main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.content {
+    background-color: #fff;
+    margin-bottom: 120px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    letter-spacing: 4px;
+    margin: 120px 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.frame {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-basis: 200px;
+    text-align: center;
+}
+
+.text {
+    line-height: 25px;
+}
