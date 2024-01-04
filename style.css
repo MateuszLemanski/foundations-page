@@ -54,18 +54,30 @@ ul {
 
 .header-container-two {
     width: 1200px;
-    height: 100%;
+    height: 80%;
     margin: 0 auto;
     display: flex;
-    /* align-items: flex-end; */
+    align-items: flex-end;
+    flex: 1;
 }
 
 /* https://www.pexels.com/pl-pl/@fr3nks/ ----author for hero-img*/ 
 
-.hero-img {
-    min-width: 50%;
-    max-height: 35%;
+.hero-container {
+    margin-right: 50px;
+    height: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
     flex: 1;
+    gap: 32px;
+}
+
+.hero-img {
+    width: 600px;
+    height: 340px;
+    margin-left: 10px;
+    border-radius: 5px;
 }
 
 .hero-header {
