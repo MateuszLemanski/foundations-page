@@ -84,20 +84,18 @@ ul {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
-}
-
-.hero-text {
-    font-size: 18px;
-    color: #E5E7EB;
+}cta-text {
+    gap: 200px;
 }
 
 .hero-btn {
-    width: 120px;
+    width: 160px;
     height: 50px;
     font-size: 24px;
     border-radius: 10px;
     color: #F9FAF8;
     background-color: #3882F6;
+    border: none;
 }
 
 
@@ -171,4 +169,40 @@ h2 {
     font-size: 24px;
     font-weight: 900;
     text-align: right;
+}
+
+
+/* -----------------------MAIN SECTION - CTA CONTENT----------------------- */
+
+.call-to-action {
+    background-color: #fff;
+    padding: 100px 0;
+}
+
+.cta-content {
+    background-color: #3882F6;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 75px 150px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-radius: 10px;
+}
+
+.cta-btn {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    font-size: 24px;
+    width: 160px;
+    height: 50px;
+    border: 1px solid #F9FAF8;
+}
+
+.cta-text h3 {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 8px;
 }
